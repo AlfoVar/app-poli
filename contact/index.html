@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="user-info">
+        <img src="../img/login/profile.png" alt="Foto de perfil" />
+        <span>Pepito Perez</span>
+      </div>
+      <div class="menu">
+        <a href="../users/index.html">Administrar Permisos</a>
+        <a href="../products/index.html">Productos</a>
+        <a href="../contact/index.html" class="active">Contacto</a>
+      </div>
+      <button onclick="window.location.href='../index.html'" class="logout">
+        Salir
+      </button>
+    </div>
+      <div class="contact-card">
+        <div class="contact-form-container">
+          <h2>CONTACTO</h2>
+          <form>
+            <input type="text" placeholder="Nombre" required />
+            <input type="tel" placeholder="Teléfono de contacto" required />
+            <textarea
+              placeholder="Escriba su solicitud"
+              rows="4"
+              required
+            ></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+  </body>
+</html>
